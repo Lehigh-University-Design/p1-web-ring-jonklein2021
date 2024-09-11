@@ -5,13 +5,15 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='stylesheet' href='css/styles.css'>
     <link rel='stylesheet' href='css/navbar.css'>
+    <script src='script.js'></script>
     <title>Rush</title>
 </head>
 <body>
     <div class='navbar'>
         <a href='https://lehigh-university-design.github.io/p1-web-ring-amandamertz14/'>Prev</a>
         <a href='https://lehigh-university-design.github.io/p1-web-ring-felicityace/'>Next</a>
-        <a href='http://example.com'>Random</a>
+        <a onclick='visitRandom()'>Random</a>
+        <!-- https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
         <div class='dropdown'>
             <button class='dropbtn'>Dropdown
                 <i class='fa fa-caret-down'></i>
@@ -22,29 +24,62 @@
                 <a href='https://lehigh-university-design.github.io/p1-web-ring-felicityace/'>Jeff Buckley</a>
                 <a href='https://lehigh-university-design.github.io/p1-web-ring-madisynbabb/'>Tate McRae</a>
                 <a href='https://lehigh-university-design.github.io/p1-web-ring-mls325/'>Masego</a>
+                <a href='https://lehigh-university-design.github.io/p1-web-ring-paleduck/'>Wave to Earth</a>
+                <a href='https://lehigh-university-design.github.io/p1-web-ring-DustinBraufman/'>42 Dugg</a>
             </div>
         </div>
     </div>
     <img class='title' src='assets/rush-logo.png' alt='rush-logo'>
+    <img class='gallery' src='assets/rush-albums.jpg' alt='some-albums'>
     <div class='timeline'>
         <div class='left'>
             <img src='assets/albums/rush.jpg' alt='rush'>
             <div class='desc'>
-                <h2>Fly by Night</h2>
-                <p>Fly by Night was recorded at Toronto Sound Studios on Overlea Boulevard in Toronto, where they recorded parts of their first album as well as their next two albums, Caress of Steel and 2112. John Rutsey left the band, and with one week's notice, Neil Peart joined the band for Rush's first American tour. In addition to drumming duties, Neil also took on the job of lyricist, leading the band to adopt a more literary lyrical style that differed significantly from their self-titled debut album.</p>
+                <h2>Fly by Night - 1975</h2>
+                <p>Fly by Night is the second studio album by the Canadian rock band Rush, released on February 14, 1975, by Mercury Records. It was the first Rush album to showcase elements of progressive rock for which the band has become known.</p>
             </div>
             <img src='assets/albums/2112.jpg' alt='2112'>
+            <div class='desc'>
+                <h2>Moving Pictures - 1981</h2>
+                <p>Moving Pictures is the eighth studio album by Canadian rock band Rush, released on February 12, 1981, by Anthem Records. After touring to support their previous album, Permanent Waves, the band started to write and record new material in August 1980 with longtime co-producer Terry Brown.</p>
+            </div>
+            <img src='assets/albums/signals.jpg' alt='signals'>
+            <div class='desc'>
+                <h2>Hold Your Fire - 1987</h2>
+                <p>Hold Your Fire is the twelfth studio album by Canadian progressive rock band Rush, released on September 8, 1987. It was recorded at The Manor Studio in Oxfordshire, Ridge Farm Studio in Surrey, AIR Studios in Montserrat and McClear Place in Toronto.</p>
+            </div>
+            <img src='assets/albums/roll-the-bones.jpg' alt='roll-the-bones'>
+            <div class='desc'>
+                <h2>Counterparts- 1993</h2>
+                <p>Counterparts is the fifteenth studio album by Canadian rock band Rush, released October 19, 1993, on Anthem Records. After the band finished touring its previous album Roll the Bones in mid-1992, the members took a break before starting work on a follow-up.</p>
+            </div>
+            <img src='assets/albums/test-for-echo.jpg' alt='test-for-echo'>
         </div>
         <div class='spine'></div>
         <div class='right'>
             <div class='desc'>
-                <h2>Rush</h2>
-                <p>The album that started it all. Original drummer John Rutsey performed all drum parts on the album. The recording sessions were produced by Dave Stock at Eastern Sound in Toronto, recorded late at night because the studio rates were the cheapest (they recorded the album on their own dime). The band was unhappy with the quality of the first sessions, so they moved to Toronto Sound Studios and produced the next sessions themselves to get a better sound.</p>
+                <h2>1974 - Rush</h2>
+                <p>Rush is the debut studio album by Canadian rock band Rush. It was released on March 18, 1974, in Canada by Moon Records, the group's own label, before it was released internationally by Mercury Records later that year.</p>
             </div>
             <img src='assets/albums/fly-by-night.jpg' alt='fly-by-night'>
             <div class='desc'>
-                <h2>2112</h2>
-                <p>The band's label didn't want Rush to do another “concept” album. The band ignored this advice and went on to record their first major commercial success and a signature record, which enabled them to chart their own course moving forward. Writing the material took about six months, and the album, recorded at Toronto Sound with Terry Brown, required about a month in the studio to finish.</p>
+                <h2>1972 - 2112</h2>
+                <p>2112 is the fourth studio album by Canadian rock band Rush, released in March 1976 by Mercury Records. It reached No. 5 in Canada and became the band's commercial breakthrough in the US, peaking at No. 61.</p>
+            </div>
+            <img src='assets/albums/moving-pictures.jpg' alt='moving-pictures'>
+            <div class='desc'>
+                <h2>1982 - Signals</h2>
+                <p>Signals is the ninth studio album by Canadian rock band Rush, released on September 9, 1982 by Anthem Records. The album peaked at No. 1 in Canada, No. 3 in the United Kingdom, and No. 10 in the United States. In November 1982, the album was certified platinum by the Recording Industry Association of America for selling one million copies in the United States.</p>
+            </div>
+            <img src='assets/albums/hold-your-fire.jpg' alt='hold-your-fire'>
+            <div class='desc'>
+                <h2>1991 - Roll the Bones</h2>
+                <p>Roll the Bones is the fourteenth studio album by Canadian rock band Rush, released September 3, 1991, on Anthem Records. The band began working on the album after a brief creative hiatus following the tour promoting their previous release, Presto.</p>
+            </div>
+            <img src='assets/albums/counterparts.jpg' alt='counterparts'>
+            <div class='desc'>
+                <h2>1996 - Test for Echo</h2>
+                <p>Test for Echo is the sixteenth studio album by the Canadian rock band Rush, released on September 10, 1996, by Anthem Records. It was the final Rush album to be co-produced by Peter Collins.</p>
             </div>
         </div>
     </div>
